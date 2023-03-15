@@ -1,25 +1,25 @@
 console.log("Hello World!\n==========\n");
 
 // Exercise 1 Section
-// console.log("EXERCISE 1:\n==========\n");
-// for (var i = 1; i <= 100; i++) {
-//   if (i % 2 == 0);
-//   else {
-//     console.log(i);
-//   }
-// }
+console.log("EXERCISE 1:\n==========\n");
+for (var i = 1; i <= 100; i++) {
+  if (i % 2 == 0);
+  else {
+    console.log(i);
+  }
+}
 
-// // Exercise 2 Section
-// console.log("EXERCISE 2:\n==========\n");
-// for (var i = 1; i <= 100; i++) {
-//   if (i % 3 == 0 && i % 5 == 0) {
-//     console.log("FIZZBUZZ");
-//   } else if (i % 3 == 0) {
-//     console.log("FIZZ");
-//   } else if (i % 5 == 0) {
-//     console.log("BUZZ");
-//   }
-// }
+// Exercise 2 Section
+console.log("EXERCISE 2:\n==========\n");
+for (var i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FIZZBUZZ");
+  } else if (i % 3 == 0) {
+    console.log("FIZZ");
+  } else if (i % 5 == 0) {
+    console.log("BUZZ");
+  }
+}
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
@@ -37,7 +37,7 @@ i = 1;
 while (i <= 100) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log(`${i}: FIZZBUZZ`);
-  } else if (1 % 3 == 0) {
+  } else if (i % 3 == 0) {
     console.log(`${i}: FIZZ`);
   } else if (i % 5 == 0) {
     console.log(`${i}: BUZZ`);
@@ -51,13 +51,13 @@ do {
     console.log(i);
   }
   i++;
-} while (1 <= 100);
+} while (i <= 100);
 i = 1;
 
 do {
-  if ( 1 % 3 === 0 && i % 5 === 0) {
+  if ( i % 3 === 0 && i % 5 === 0) {
     console.log(`${i}: FIZZBUZZ`);
-  } else if (1 % 3 == 0) {
+  } else if (i % 3 == 0) {
     console.log(`${i}: FIZZ`);
   } else if (i % 5 == 0) {
     console.log(`${i}: BUZZ`);
